@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="79683ef4-f0ef-4ca6-9f55-82a427fbf6c5" name="Default Changelist" comment="" />
+    <list default="true" id="79683ef4-f0ef-4ca6-9f55-82a427fbf6c5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stackroute/pe/PrintLoop.java" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,6 +26,9 @@
         <option value="JUnit4 Test Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -47,6 +54,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/stackroute/pe/StringRepeat.java" />
         <option value="$PROJECT_DIR$/src/main/test/com/stackroute/pe/StringRepeatTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/stackroute/pe/GuessNumber.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/stackroute/pe/PrintLoop.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/stackroute/pe/AddElements.java" />
+        <option value="$PROJECT_DIR$/src/main/test/com/stackroute/pe/AddElementsTest.java" />
       </list>
     </option>
   </component>
@@ -132,6 +142,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Data Munger" />
@@ -159,7 +170,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GuessNumber">
+  <component name="RunManager" selected="JUnit.AddElementsTest.testRun">
+    <configuration name="AddElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.stackroute.pe.AddElements" />
+      <module name="ProblemExercise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.stackroute.pe.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GuessNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.stackroute.pe.GuessNumber" />
       <module name="ProblemExercise" />
@@ -173,8 +197,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Pattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.stackroute.pe.Pattern" />
+    <configuration name="PrintLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.stackroute.pe.PrintLoop" />
       <module name="ProblemExercise" />
       <extension name="coverage">
         <pattern>
@@ -186,20 +210,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringRepeat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.stackroute.pe.StringRepeat" />
-      <module name="ProblemExercise" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.stackroute.pe.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PatternTest.testRun" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AddElementsTest.testRun" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ProblemExercise" />
       <extension name="coverage">
         <pattern>
@@ -208,7 +219,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.stackroute.pe" />
-      <option name="MAIN_CLASS_NAME" value="com.stackroute.pe.PatternTest" />
+      <option name="MAIN_CLASS_NAME" value="com.stackroute.pe.AddElementsTest" />
       <option name="METHOD_NAME" value="testRun" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -233,18 +244,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.GuessNumber" />
-      <item itemvalue="Application.Pattern" />
-      <item itemvalue="Application.StringRepeat" />
-      <item itemvalue="JUnit.PatternTest.testRun" />
       <item itemvalue="JUnit.StringRepeatTest.testRun" />
+      <item itemvalue="Application.PrintLoop" />
+      <item itemvalue="Application.AddElements" />
+      <item itemvalue="JUnit.AddElementsTest.testRun" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AddElementsTest.testRun" />
+        <item itemvalue="Application.AddElements" />
+        <item itemvalue="Application.PrintLoop" />
         <item itemvalue="Application.GuessNumber" />
         <item itemvalue="JUnit.StringRepeatTest.testRun" />
-        <item itemvalue="Application.StringRepeat" />
-        <item itemvalue="JUnit.PatternTest.testRun" />
-        <item itemvalue="Application.Pattern" />
       </list>
     </recent_temporary>
   </component>
@@ -262,9 +273,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ReverseStringTest - 2019.06.25 at 23h 18m 58s.xml">
-      <configuration name="ReverseStringTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TomAndJerryTest_invalid - 2019.06.26 at 09h 59m 44s.xml">
       <configuration name="TomAndJerryTest.invalid" configurationId="JUnit" />
     </history-entry>
@@ -292,18 +300,21 @@
     <history-entry file="StringRepeatTest_testRun - 2019.06.26 at 11h 28m 56s.xml">
       <configuration name="StringRepeatTest.testRun" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="AddElementsTest_testRun - 2019.06.27 at 10h 16m 02s.xml">
+      <configuration name="AddElementsTest.testRun" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1533" height="875" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2400807" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24344318" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.328877" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32841823" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -311,7 +322,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.328877" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.328877" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32841823" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -349,16 +360,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="30" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/test/com/stackroute/pe/ReverseStringTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -413,13 +414,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/pe/Pattern.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="47" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/test/com/stackroute/pe/PatternTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -447,13 +441,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/test/com/stackroute/pe/IdentifyTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -492,6 +479,50 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/pe/AddElements.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/test/com/stackroute/pe/AddElementsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/test/com/stackroute/pe/IdentifyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/test/com/stackroute/pe/ReverseStringTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/pe/Pattern.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="47" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
         </state>
       </provider>
     </entry>
