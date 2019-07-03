@@ -1,4 +1,4 @@
-**********Java Language Basics - Practice Exercise 1***********
+**********Java Language Basics - Practice Exercise 1**********
 ----------------------------------------------------------------------------------------------------
 1. Write a program which accepts a number as input and check whether the given number is
 palindrome or not If it is a palindrome then
