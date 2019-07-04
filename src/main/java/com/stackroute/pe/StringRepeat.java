@@ -1,22 +1,8 @@
 package com.stackroute.pe;
 
-import java.util.Scanner;
-
 public class StringRepeat{
 
-    public static void main(String[] args) {
-
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter a string and an integer: ");
-        String input1 = sc.next();
-        int input2 = sc.nextInt();
-
-        String resultString = stringRepeat(input1, input2);
-
-        System.out.println(resultString);
-
-    }
-
+    //To repeat a portion of string for a given number of times
     public static String stringRepeat(String input1, int input2) {
 
         String substr = input1.substring(input1.length()-input2);

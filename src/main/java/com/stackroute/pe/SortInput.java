@@ -1,19 +1,10 @@
 package com.stackroute.pe;
 
 import java.util.Arrays;
-import java.util.Scanner;
 
 public class SortInput {
-    public static void main(String[] args){
-        int input;
-        Scanner sc = new Scanner(System.in);
 
-        System.out.println("Enter a number: ");
-        input = sc.nextInt();
-
-        System.out.println(sortInput(input));
-    }
-
+    //To sort input
     public static String sortInput(int input){
         String str = Integer.toString(input);
         int number;
@@ -25,6 +16,7 @@ public class SortInput {
         return(reverse(number) + checkSum(number));
     }
 
+    //To reverse input
     public static int reverse(int num){
         int reversed = 0;
         while(num != 0) {
@@ -36,6 +28,7 @@ public class SortInput {
         return reversed;
     }
 
+    //to check if sum of even digits
     public static String checkSum(long num){
         long temp=0, rem;
 

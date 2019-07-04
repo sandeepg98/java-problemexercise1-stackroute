@@ -1,19 +1,8 @@
 package com.stackroute.pe;
 
-import java.util.Scanner;
-
 public class Palindrome {
-    public static void main(String[] args){
-        long input;
-        Scanner sc = new Scanner(System.in);
 
-        System.out.println("Enter a number: ");
-        input = sc.nextLong();
-
-        System.out.print(palindrome(input));
-
-    }
-
+    //Method to check Palindrome
     public static String palindrome(long input){
         long rem, sum=0, temp = input;
 
@@ -30,6 +19,7 @@ public class Palindrome {
             return ("No");
     }
 
+    //Method to check if sum of even digits is greater than 25
     public static String checkSum(long num){
         long temp=0, rem;
 
